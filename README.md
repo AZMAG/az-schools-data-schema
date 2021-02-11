@@ -14,3 +14,5 @@ An education longitudinal data system is a data system that collects and maintai
 Longitudinal means that data on a given school can be connected across years.
 
 ## See Wiki for schema information ##
+
+Data located in: I:\Data\Schools\Schools_K12\Longitudinal_Data
