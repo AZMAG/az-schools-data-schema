@@ -14,7 +14,7 @@
 
 `education` `schools` `education-data` `educational-project` `ADE` `MAG` `Arizona`
 
-## Overview
+## :gear: Overview
 
 ### What is a Longitudinal Data System?
 
