@@ -4,7 +4,7 @@
   </div>
 </div>
 
-# az-schools-data-schema #
+# az-schools-data-schema
 
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/issues)
 [![GitHub license](https://img.shields.io/github/license/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/blob/main/LICENSE)
@@ -14,6 +14,14 @@
 `education` `schools` `education-data` `educational-project` `ADE` `MAG` `Arizona`
 
 ## Overview
+
+### What is a Longitudinal Data System?
+
+Longitudinal Database design schema for Arizona schools data
+
+An education longitudinal data system is a data system that collects and maintains detailed, high quality, school data that are linked across entities and over time, providing a complete academic and performance history for each school, district, county, and state; and makes these data accessible through reporting and analysis tools.
+
+Longitudinal means that data on a given school can be connected across years.
 
 ## Documentation
 
@@ -43,13 +51,6 @@ Code released under the MIT license.
 
 [Back to top](#az-schools-data-schema)
 
-Longitudinal Database design schema for Arizona schools data
 
-## What is a Longitudinal Data System? ##
-An education longitudinal data system is a data system that collects and maintains detailed, high quality, school data that are linked across entities and over time, providing a complete academic and performance history for each school, district, county, and state; and makes these data accessible through reporting and analysis tools.
 
-Longitudinal means that data on a given school can be connected across years.
 
-## See Wiki for schema information ##
-
-Data located in: I:\Data\Schools\Schools_K12\Longitudinal_Data
