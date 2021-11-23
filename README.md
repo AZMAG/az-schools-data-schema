@@ -6,6 +6,9 @@
 
 # az-schools-data-schema #
 
+[![GitHub issues](https://img.shields.io/github/issues/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/issues)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/blob/main/LICENSE)
+
 ## Keywords
 
 `education` `schools` `education-data` `educational-project` `ADE` `MAG` `Arizona`
@@ -36,7 +39,7 @@ Copyright 2021 Maricopa Association of Governments (MAG)
 
 Code released under the MIT license.
 
-- [LICENSE](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/blob/main/LICENSE)
 
 [Back to top](#az-schools-data-schema)
 
