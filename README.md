@@ -10,7 +10,7 @@
 ![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 [![GitHub license](https://img.shields.io/github/license/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/blob/main/LICENSE)
 
-## Keywords
+## :key: Keywords
 
 `education` `schools` `education-data` `educational-project` `ADE` `MAG` `Arizona`
 
@@ -24,11 +24,11 @@ An education longitudinal data system is a data system that collects and maintai
 
 Longitudinal means that data on a given school can be connected across years.
 
-## Documentation
+## :bookmark_tabs: Documentation
 
 Check out the [wiki](https://github.com/AZMAG/az-schools-data-schema/wiki) for data documentation.
 
-## Credits
+## :star: Credits
 
 - [Arizona Department of Education](http://www.azed.gov/)
 - [Maricopa Association of Governments (MAG) and the MAG member agencies](https://www.azmag.gov/)
@@ -38,15 +38,16 @@ Check out the [wiki](https://github.com/AZMAG/az-schools-data-schema/wiki) for d
 - [Arizona Department of Health Services](http://www.azdhs.gov/hsd/data/maps.htm)
 - [Virginia G. Piper Charitable Trust](https://pipertrust.org/)
 
-## Legal Disclaimer
+## :zap: Legal Disclaimer
 
 - [DISCLAIMER](DISCLAIMER.md)
 
-## Licensing
+## :warning: Licensing
 
 Copyright 2021 Maricopa Association of Governments (MAG)
 
-This project is licensed under the terms of the 
+This project is licensed under the terms of the
+
 [![GitHub license](https://img.shields.io/github/license/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/blob/main/LICENSE)
 
 [Back to top](#az-schools-data-schema)
