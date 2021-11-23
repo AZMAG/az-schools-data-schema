@@ -6,6 +6,40 @@
 
 # az-schools-data-schema #
 
+## Keywords
+
+`education` `schools` `education-data` `educational-project` `ADE` `MAG` `Arizona`
+
+## Overview
+
+## Documentation
+
+Check out the [wiki](https://github.com/AZMAG/az-schools-data-schema/wiki) for data documentation.
+
+## Credits
+
+- [Arizona Department of Education](http://www.azed.gov/)
+- [Maricopa Association of Governments (MAG) and the MAG member agencies](https://www.azmag.gov/)
+- [Read On Arizona](http://readonarizona.org/)
+- [First Things First](https://www.firstthingsfirst.org/)
+- [Teaching Strategies](https://teachingstrategies.com/)
+- [Arizona Department of Health Services](http://www.azdhs.gov/hsd/data/maps.htm)
+- [Virginia G. Piper Charitable Trust](https://pipertrust.org/)
+
+## Legal Disclaimer
+
+- [DISCLAIMER](DISCLAIMER.md)
+
+## Licensing
+
+Copyright 2021 Maricopa Association of Governments (MAG)
+
+Code released under the MIT license.
+
+- [LICENSE](LICENSE)
+
+[Back to top](#az-schools-data-schema)
+
 Longitudinal Database design schema for Arizona schools data
 
 ## What is a Longitudinal Data System? ##
