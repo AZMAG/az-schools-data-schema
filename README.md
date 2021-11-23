@@ -46,9 +46,7 @@ Check out the [wiki](https://github.com/AZMAG/az-schools-data-schema/wiki) for d
 
 Copyright 2021 Maricopa Association of Governments (MAG)
 
-Code released under the MIT license.
-
-[![GitHub license](https://img.shields.io/github/license/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/blob/main/LICENSE)
+Code released under the [![GitHub license](https://img.shields.io/github/license/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/blob/main/LICENSE)
 
 [Back to top](#az-schools-data-schema)
 
