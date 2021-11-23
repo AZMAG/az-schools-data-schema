@@ -7,7 +7,7 @@
 # az-schools-data-schema
 
 [![GitHub issues](https://img.shields.io/github/issues/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/issues)
-[SemVer](https://semver.org/) version observance: ![semver](https://img.shields.io/badge/semver-2.0.0-blue)
+![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 [![GitHub license](https://img.shields.io/github/license/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/blob/main/LICENSE)
 
 ## Keywords
