@@ -38,6 +38,15 @@ Check out the [wiki](https://github.com/AZMAG/az-schools-data-schema/wiki) for d
 - [Arizona Department of Health Services](http://www.azdhs.gov/hsd/data/maps.htm)
 - [Virginia G. Piper Charitable Trust](https://pipertrust.org/)
 
+## Issues Labels
+
+### git-labelmaker
+Edit GitHub labels from the command line using `git-labelmaker`. You can easily add or remove GitHub labels, making it easier for your projects to adhere to a labelling scheme.
+
+For more information - [git-labelmaker](https://github.com/himynameisdave/git-labelmaker)
+
+Run the command and follow the prompts - `git-labelmaker` 
+
 ## :zap: Legal Disclaimer
 
 - [DISCLAIMER](DISCLAIMER.md)
