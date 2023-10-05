@@ -1,0 +1,133 @@
+[
+  {
+    "name": "bug",
+    "description": "The issue documents broken, incorrect, or confusing behavior.",
+    "color": "#d73a4a"
+  },
+  {
+    "name": "discussion",
+    "description": "Further discussion or changes of confusing or incongruous behavior or documentation.",
+    "color": "#cc317c"
+  },
+  {
+    "name": "documentation",
+    "description": "Improvements or additions to documentation.",
+    "color": "#0075ca"
+  },
+  {
+    "name": "duplicate",
+    "description": "This issue or pull request already exists.",
+    "color": "#0075ca"
+  },
+  {
+    "name": "enhancement",
+    "description": "The issue is a new feature or a change to a feature which enhances the project.",
+    "color": "#5ebeff"
+  },
+  {
+    "name": "feature",
+    "description": "The issue is a request for new functionality including changes, enhancements, refactors, etc.",
+    "color": "#67aa2a"
+  },
+  {
+    "name": "help-wanted",
+    "description": "Extra attention is needed",
+    "color": "#008672"
+  },
+  {
+    "name": "info-needed",
+    "description": "The issue needs more information before it can be verified and resolved.",
+    "color": "#d4c5f9"
+  },
+  {
+    "name": "Priority: High",
+    "description": "The issue reports incorrect functionality, bad functionality, a confusing user experience, etc.",
+    "color": "#eb6420"
+  },
+  {
+    "name": "Priority: Critical",
+    "description": "The issue causes data loss, crashes or hangs salt processes, makes the system unresponsive, etc.",
+    "color": "#e11d21"
+  },
+  {
+    "name": "Priority: Medium",
+    "description": "The issue reports cosmetic items, formatting, spelling, colors, etc.",
+    "color": "#fbca04"
+  },
+  {
+    "name": "Priority: Low",
+    "description": "This issue can probably be picked up by anyone looking to contribute to the project, as an entry fix",
+    "color": "#fef2c0"
+  },
+  {
+    "name": "invalid",
+    "description": "This doesn't seem right",
+    "color": "#e4e669"
+  },
+  {
+    "name": "maintenance",
+    "description": "Updating phrasing or wording to make things clearer or removing ambiguity, without changing the fun",
+    "color": "#fbca04"
+  },
+  {
+    "name": "PR: DO-NOT-MERGE",
+    "description": "This pull request is not ready to be merged",
+    "color": "#b60205"
+  },
+  {
+    "name": "PR: good-to-merge",
+    "description": "This pull request is ready to be merged, code is accepted",
+    "color": "#0e8a16"
+  },
+  {
+    "name": "PR: on-hold",
+    "description": "This pull request is on hold - not ready for merge",
+    "color": "#5319E7"
+  },
+  {
+    "name": "PR: review-needed",
+    "description": "Pull request should receive review by at least one other member in the team",
+    "color": "#fbca04"
+  },
+  {
+    "name": "PR: work-in-progress",
+    "description": "Pull request is still being worked on - not ready for merge",
+    "color": "#BE0CA7"
+  },
+
+  {
+    "name": "question",
+    "description": "Further information is requested",
+    "color": "#d876e3"
+  },
+  {
+    "name": "wont-fix",
+    "description": "The issue is legitimate, but it is not something the team is currently able or willing to",
+    "color": "#cccccc"
+  },
+  {
+    "name": "area: ux",
+    "description": "end-user experience, interaction",
+    "color": "#fbca04"
+  },
+  {
+    "name": "area: design",
+    "description": "visual design, branding, identity",
+    "color": "#fbca04"
+  },
+  {
+    "name": "area: data",
+    "description": "data, data models",
+    "color": "#fbca04"
+  },
+  {
+    "name": "blocked",
+    "description": "There is another issue that needs to be resolved first or some external blocker.",
+    "color": "#ee4035"
+  },
+  {
+    "name": "cant-reproduce",
+    "description": "The issue is a bug and has been reviewed, but cannot be reproduced.",
+    "color": "#cccccc"
+  }
+]
