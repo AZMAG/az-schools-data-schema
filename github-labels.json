@@ -1,152 +1,133 @@
 [
   {
-    "name": "Mindless: docs",
-    "color": "#FFEAB8",
-    "description": "test"
+    "name": "bug",
+    "description": "The issue documents broken, incorrect, or confusing behavior.",
+    "color": "#d73a4a"
   },
   {
-    "name": "Mindless: documentation",
-    "color": "#FFEAB8",
-    "description": "test"
+    "name": "discussion",
+    "description": "Further discussion or changes of confusing or incongruous behavior or documentation.",
+    "color": "#cc317c"
   },
   {
-    "name": "Mindless: structure",
-    "color": "#FFEAB8",
-    "description": "test"
+    "name": "documentation",
+    "description": "Improvements or additions to documentation.",
+    "color": "#0075ca"
   },
   {
-    "name": "Experience: design",
-    "color": "#cef2ac",
-    "description": ""
+    "name": "duplicate",
+    "description": "This issue or pull request already exists.",
+    "color": "#0075ca"
   },
   {
-    "name": "Experience: database",
-    "color": "#cef2ac",
-    "description": ""
+    "name": "enhancement",
+    "description": "The issue is a new feature or a change to a feature which enhances the project.",
+    "color": "#5ebeff"
   },
   {
-    "name": "Experience: ux",
-    "color": "#cef2ac",
-    "description": ""
+    "name": "feature",
+    "description": "The issue is a request for new functionality including changes, enhancements, refactors, etc.",
+    "color": "#67aa2a"
   },
   {
-    "name": "Priority: low",
-    "color": "#FFEAB8",
-    "description": ""
+    "name": "help-wanted",
+    "description": "Extra attention is needed",
+    "color": "#008672"
   },
   {
-    "name": "Priority: medium",
-    "color": "#fbca04",
-    "description": ""
+    "name": "info-needed",
+    "description": "The issue needs more information before it can be verified and resolved.",
+    "color": "#d4c5f9"
   },
   {
-    "name": "Priority: high",
-    "color": "#ee4035",
-    "description": ""
+    "name": "Priority: High",
+    "description": "The issue reports incorrect functionality, bad functionality, a confusing user experience, etc.",
+    "color": "#eb6420"
   },
   {
-    "name": "Priority: critical",
-    "color": "#cc2a36",
-    "description": ""
+    "name": "Priority: Critical",
+    "description": "The issue causes data loss, crashes or hangs salt processes, makes the system unresponsive, etc.",
+    "color": "#e11d21"
   },
   {
-    "name": "Status: blocked",
-    "color": "#ee4035",
-    "description": ""
+    "name": "Priority: Medium",
+    "description": "The issue reports cosmetic items, formatting, spelling, colors, etc.",
+    "color": "#fbca04"
   },
   {
-    "name": "Status: completed",
-    "color": "#7ED321",
-    "description": ""
+    "name": "Priority: Low",
+    "description": "This issue can probably be picked up by anyone looking to contribute to the project, as an entry fix",
+    "color": "#fef2c0"
   },
   {
-    "name": "Status: duplicate",
-    "color": "#cccccc",
-    "description": ""
+    "name": "invalid",
+    "description": "This doesn't seem right",
+    "color": "#e4e669"
   },
   {
-    "name": "Status: in-progress",
-    "color": "#1d76db",
-    "description": ""
+    "name": "maintenance",
+    "description": "Updating phrasing or wording to make things clearer or removing ambiguity, without changing the fun",
+    "color": "#fbca04"
   },
   {
-    "name": "Status: inactive",
-    "color": "#cccccc",
-    "description": ""
+    "name": "PR: DO-NOT-MERGE",
+    "description": "This pull request is not ready to be merged",
+    "color": "#b60205"
   },
   {
-    "name": "Status: on-hold",
-    "color": "#ee9d35",
-    "description": ""
+    "name": "PR: good-to-merge",
+    "description": "This pull request is ready to be merged, code is accepted",
+    "color": "#0e8a16"
   },
   {
-    "name": "Status: review-needed",
-    "color": "#fbca04",
-    "description": ""
+    "name": "PR: on-hold",
+    "description": "This pull request is on hold - not ready for merge",
+    "color": "#5319E7"
   },
   {
-    "name": "Status: wont-fix",
-    "color": "#cccccc",
-    "description": ""
+    "name": "PR: review-needed",
+    "description": "Pull request should receive review by at least one other member in the team",
+    "color": "#fbca04"
   },
   {
-    "name": "Status: by-design",
-    "color": "#3865a3",
-    "description": ""
+    "name": "PR: work-in-progress",
+    "description": "Pull request is still being worked on - not ready for merge",
+    "color": "#BE0CA7"
+  },
+
+  {
+    "name": "question",
+    "description": "Further information is requested",
+    "color": "#d876e3"
   },
   {
-    "name": "Status: cant-reproduce",
-    "color": "#cccccc",
-    "description": ""
+    "name": "wont-fix",
+    "description": "The issue is legitimate, but it is not something the team is currently able or willing to",
+    "color": "#cccccc"
   },
   {
-    "name": "Type: bug",
-    "color": "#b60205",
-    "description": ""
+    "name": "area: ux",
+    "description": "end-user experience, interaction",
+    "color": "#fbca04"
   },
   {
-    "name": "Type: discussion",
-    "color": "#c495f0",
-    "description": ""
+    "name": "area: design",
+    "description": "visual design, branding, identity",
+    "color": "#fbca04"
   },
   {
-    "name": "Type: enhancement",
-    "color": "#1c82b4",
-    "description": ""
+    "name": "area: data",
+    "description": "data, data models",
+    "color": "#fbca04"
   },
   {
-    "name": "Type: feature",
-    "color": "#00FF00",
-    "description": ""
+    "name": "blocked",
+    "description": "There is another issue that needs to be resolved first or some external blocker.",
+    "color": "#ee4035"
   },
   {
-    "name": "Type: fix",
-    "color": "#88d263",
-    "description": ""
-  },
-  {
-    "name": "Type: help-needed",
-    "color": "#5319e7",
-    "description": ""
-  },
-  {
-    "name": "Type: idea",
-    "color": "#6DE6FF",
-    "description": ""
-  },
-  {
-    "name": "Type: maintenance",
-    "color": "#FFA500",
-    "description": ""
-  },
-  {
-    "name": "Type: optimization",
-    "color": "#1c82b4",
-    "description": ""
-  },
-  {
-    "name": "Type: testing",
-    "color": "#fbca04",
-    "description": ""
+    "name": "cant-reproduce",
+    "description": "The issue is a bug and has been reviewed, but cannot be reproduced.",
+    "color": "#cccccc"
   }
 ]
