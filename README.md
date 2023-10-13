@@ -41,11 +41,18 @@ Check out the [wiki](https://github.com/AZMAG/az-schools-data-schema/wiki) for d
 ## Issues Labels
 
 ### git-labelmaker
+
 Edit GitHub labels from the command line using `git-labelmaker`. You can easily add or remove GitHub labels, making it easier for your projects to adhere to a labelling scheme.
 
 For more information - [git-labelmaker](https://github.com/himynameisdave/git-labelmaker)
 
-Run the command and follow the prompts - `git-labelmaker` 
+Run the command and follow the prompts - `git-labelmaker`
+
+#### Labels
+
+A bunch of different label schemes are available in the [labels](labels) directory.
+
+-[default](labels/github-labels.json)
 
 ## :zap: Legal Disclaimer
 
@@ -60,7 +67,3 @@ This project is licensed under the terms of the
 [![GitHub license](https://img.shields.io/github/license/AZMAG/az-schools-data-schema?style=flat-square)](https://github.com/AZMAG/az-schools-data-schema/blob/main/LICENSE)
 
 [Back to top](#az-schools-data-schema)
-
-
-
-
