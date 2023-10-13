@@ -2,151 +2,151 @@
   {
     "name": "Mindless: docs",
     "color": "#FFEAB8",
-    "discription": "test"
+    "description": "test"
   },
   {
     "name": "Mindless: documentation",
     "color": "#FFEAB8",
-    "discription": "test"
+    "description": "test"
   },
   {
     "name": "Mindless: structure",
     "color": "#FFEAB8",
-    "discription": "test"
+    "description": "test"
   },
   {
     "name": "Experience: design",
     "color": "#cef2ac",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Experience: database",
     "color": "#cef2ac",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Experience: ux",
     "color": "#cef2ac",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Priority: low",
     "color": "#FFEAB8",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Priority: medium",
     "color": "#fbca04",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Priority: high",
     "color": "#ee4035",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Priority: critical",
     "color": "#cc2a36",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: blocked",
     "color": "#ee4035",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: completed",
     "color": "#7ED321",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: duplicate",
     "color": "#cccccc",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: in-progress",
     "color": "#1d76db",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: inactive",
     "color": "#cccccc",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: on-hold",
     "color": "#ee9d35",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: review-needed",
     "color": "#fbca04",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: wont-fix",
     "color": "#cccccc",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: by-design",
     "color": "#3865a3",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Status: cant-reproduce",
     "color": "#cccccc",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: bug",
     "color": "#b60205",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: discussion",
     "color": "#c495f0",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: enhancement",
     "color": "#1c82b4",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: feature",
     "color": "#00FF00",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: fix",
     "color": "#88d263",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: help-needed",
     "color": "#5319e7",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: idea",
     "color": "#6DE6FF",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: maintenance",
     "color": "#FFA500",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: optimization",
     "color": "#1c82b4",
-    "discription": ""
+    "description": ""
   },
   {
     "name": "Type: testing",
     "color": "#fbca04",
-    "discription": ""
+    "description": ""
   }
 ]
