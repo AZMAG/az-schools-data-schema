@@ -1,0 +1,122 @@
+{
+  "title": "Record of Enrollment by Grade Level",
+  "description": "This document records the details of an enrollment by grade level",
+  "type": "object",
+  "properties": {
+    "FiscalYear": {
+      "type": "number",
+      "description": "Fiscal year of the enrollment",
+      "pattern": "^[0-9]{4}$"
+    },
+    "SchoolYear": {
+      "type": "string",
+      "description": "School year of the enrollment",
+      "pattern": "^[0-9]{4}-[0-9]{4}$"
+    },
+    "CountyEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the county",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "LEAEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the LEA",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "SchoolEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the school",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "EntityType": {
+      "type": "string",
+      "description": "The type of entity type",
+      "pattern": "^(State|County|LEA|School)$"
+    },
+    "EntityClass": {
+      "type": "string",
+      "description": "The type of entity class",
+      "pattern": "^(All|Public|Charter|Alternative|Private|BIA)$"
+    },
+    "PS": {
+      "type": "number",
+      "description": "The number of students in the Pre-School grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "KG": {
+      "type": "number",
+      "description": "The number of students in the Kindergarten grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G01": {
+      "type": "number",
+      "description": "The number of students in the 1st grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G02": {
+      "type": "number",
+      "description": "The number of students in the 2nd grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G03": {
+      "type": "number",
+      "description": "The number of students in the 3rd grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G04": {
+      "type": "number",
+      "description": "The number of students in the 4th grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G05": {
+      "type": "number",
+      "description": "The number of students in the 5th grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G06": {
+      "type": "number",
+      "description": "The number of students in the 6th grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G07": {
+      "type": "number",
+      "description": "The number of students in the 7th grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G08": {
+      "type": "number",
+      "description": "The number of students in the 8th grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G09": {
+      "type": "number",
+      "description": "The number of students in the 9th grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G10": {
+      "type": "number",
+      "description": "The number of students in the 10th grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G11": {
+      "type": "number",
+      "description": "The number of students in the 11th grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "G12": {
+      "type": "number",
+      "description": "The number of students in the 12th grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "Ungraded": {
+      "type": "number",
+      "description": "The number of students in the ungraded grade level",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "Total": {
+      "type": "number",
+      "description": "The total number of students in the school",
+      "pattern": "^[0-9]{1,5}$"
+    }
+  }
+}

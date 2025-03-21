@@ -1,0 +1,22 @@
+{
+  "title": "Record of Counties",
+  "description": "This document records the details of a county",
+  "type": "object",
+  "properties": {
+    "GEOID": {
+      "type": "string",
+      "description": "The unique identifier for the county",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "CountyEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the county",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "CountyName": {
+      "type": "string",
+      "description": "The name of the county",
+      "pattern": "^[a-zA-Z0-9 ]{1,50}$"
+    }
+  }
+}

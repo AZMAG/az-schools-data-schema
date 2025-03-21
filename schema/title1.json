@@ -1,0 +1,52 @@
+{
+  "title": "Record of Title 1 Schools",
+  "description": "This document records the details of an Title 1 school",
+  "type": "object",
+  "properties": {
+    "FiscalYear": {
+      "type": "number",
+      "description": "Fiscal year of the enrollment",
+      "pattern": "^[0-9]{4}$"
+    },
+    "SchoolYear": {
+      "type": "string",
+      "description": "School year of the enrollment",
+      "pattern": "^[0-9]{4}-[0-9]{4}$"
+    },
+    "CountyEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the county",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "LEAEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the LEA",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "SchoolEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the school",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "CountyName": {
+      "type": "string",
+      "description": "The name of the county",
+      "pattern": "^[a-zA-Z0-9]{1,100}$"
+    },
+    "LEAName": {
+      "type": "string",
+      "description": "The name of the LEA",
+      "pattern": "^[a-zA-Z0-9]{1,100}$"
+    },
+    "SchoolName": {
+      "type": "string",
+      "description": "The name of the school",
+      "pattern": "^[A-Za-z0-9 ]{1,100}$"
+    },
+    "Title1Status": {
+      "type": "string",
+      "description": "The Title 1 status of the school",
+      "pattern": "^(Y|N)$"
+    }
+  }
+}

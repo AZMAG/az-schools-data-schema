@@ -1,0 +1,22 @@
+{
+  "title": "Record of Subgroups",
+  "description": "This document records the details of a subgroup",
+  "type": "object",
+  "properties": {
+    "SubgroupID": {
+      "type": "number",
+      "description": "The unique identifier for the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "Subgroup": {
+      "type": "string",
+      "description": "The name of the subgroup",
+      "pattern": "^[a-zA-Z0-9 ]{1,50}$"
+    },
+    "SubgroupDef": {
+      "type": "string",
+      "description": "The Definition of the subgroup",
+      "pattern": "^[a-zA-Z0-9 ]{1,100}$"
+    }
+  }
+}

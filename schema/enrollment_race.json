@@ -1,0 +1,108 @@
+{
+  "title": "Record of Enrollment by Race",
+  "description": "This document records the details of an enrollment by race",
+  "type": "object",
+  "properties": {
+    "FiscalYear": {
+      "type": "number",
+      "description": "Fiscal year of the enrollment",
+      "pattern": "^[0-9]{4}$"
+    },
+    "SchoolYear": {
+      "type": "string",
+      "description": "School year of the enrollment",
+      "pattern": "^[0-9]{4}-[0-9]{4}$"
+    },
+    "CountyEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the county",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "LEAEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the LEA",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "SchoolEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the school",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "EntityType": {
+      "type": "string",
+      "description": "The type of entity type",
+      "pattern": "^(State|County|LEA|School)$"
+    },
+    "EntityClass": {
+      "type": "string",
+      "description": "The type of entity class",
+      "pattern": "^(All|Public|Charter|Alternative|Private|BIA)$"
+    },
+
+    "Subgroup": {
+      "type": "number",
+      "description": "The unique identifier of the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "Female": {
+      "type": "number",
+      "description": "The number of female students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "Male": {
+      "type": "number",
+      "description": "The number of male students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "GenderTotal": {
+      "type": "number",
+      "description": "The total number of students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "White": {
+      "type": "number",
+      "description": "The number of white students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "Black": {
+      "type": "number",
+      "description": "The number of black students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "Hispanic": {
+      "type": "number",
+      "description": "The number of hispanic students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "Asian": {
+      "type": "number",
+      "description": "The number of asian students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "NativeAmerican": {
+      "type": "number",
+      "description": "The number of native american students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "PacificIslander": {
+      "type": "number",
+      "description": "The number of pacific islander students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "MultipleRaces": {
+      "type": "number",
+      "description": "The number of students of more than one race",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "MissingEthnicity": {
+      "type": "number",
+      "description": "The number of students with missing ethnicity",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "Total": {
+      "type": "number",
+      "description": "The total number of students in the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    }
+  }
+}

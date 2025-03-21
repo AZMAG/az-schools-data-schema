@@ -1,0 +1,117 @@
+{
+  "title": "Record of assessments",
+  "description": "This document records the details of an assessment",
+  "type": "object",
+  "properties": {
+    "FiscalYear": {
+      "type": "number",
+      "description": "Fiscal year of the enrollment",
+      "pattern": "^[0-9]{4}$"
+    },
+    "SchoolYear": {
+      "type": "string",
+      "description": "School year of the enrollment",
+      "pattern": "^[0-9]{4}-[0-9]{4}$"
+    },
+    "CountyEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the county",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "LEAEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the LEA",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "SchoolEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the school",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "CharterSchool": {
+      "type": "number",
+      "description": "The charter status of the school",
+      "pattern": "^[0-9]{1,1}$"
+    },
+    "AlternativeSchool": {
+      "type": "number",
+      "description": "The alternative status of the school",
+      "pattern": "^[0-9]{1,1}$"
+    },
+    "FAYStatus": {
+      "type": "string",
+      "description": "The FAY status of the school",
+      "pattern": "^(FAY|Not FAY|All)$"
+    },
+    "EntityType": {
+      "type": "string",
+      "description": "The type of entity type",
+      "pattern": "^(State|County|LEA|School)$"
+    },
+    "EntityClass": {
+      "type": "string",
+      "description": "The type of entity class",
+      "pattern": "^(All|Public|Charter|Alternative|Private|BIA)$"
+    },
+    "ContentArea": {
+      "type": "number",
+      "description": "The content area of the assessment",
+      "pattern": "^[0-9]{1,3}$"
+    },
+    "ContentAreaDef": {
+      "type": "string",
+      "description": "The type of content area assessment",
+      "pattern": "^(ELA|Math|Science)$"
+    },
+    "TestLevel": {
+      "type": "number",
+      "description": "The test level of the assessment",
+      "pattern": "^[0-9]{1,3}$"
+    },
+    "TestLevelDef": {
+      "type": "string",
+      "description": "The type of test level assessment",
+      "pattern": "^(All|G03|G04)$"
+    },
+    "SubgroupID": {
+      "type": "number",
+      "description": "The unique identifier for the subgroup",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "NumTested": {
+      "type": "number",
+      "description": "The number of students tested",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "PCTPassing": {
+      "type": "number",
+      "description": "The percentage of students passing PCTPL3 and PCTPL4",
+      "pattern": "^[0-9]{1,3}$"
+    },
+    "PCTRedacted": {
+      "type": "number",
+      "description": "The percentage of students redacted",
+      "pattern": "^[0-9]{1,3}$"
+    },
+    "PCTPL1": {
+      "type": "number",
+      "description": "The percentage of students at performance level 1",
+      "pattern": "^[0-9]{1,3}$"
+    },
+    "PCTPL2": {
+      "type": "number",
+      "description": "The percentage of students at performance level 2",
+      "pattern": "^[0-9]{1,3}$"
+    },
+    "PCTPL3": {
+      "type": "number",
+      "description": "The percentage of students at performance level 3",
+      "pattern": "^[0-9]{1,3}$"
+    },
+    "PCTPL4": {
+      "type": "number",
+      "description": "The percentage of students at performance level 4",
+      "pattern": "^[0-9]{1,3}$"
+    }
+  }
+}

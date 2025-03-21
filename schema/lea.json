@@ -1,0 +1,97 @@
+{
+  "title": "Record of LEAs",
+  "description": "This document records the details of an LEA",
+  "type": "object",
+  "properties": {
+    "CountyEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the county",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "LEAEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the LEA",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "LEACTDS": {
+      "type": "string",
+      "description": "Nine (9) digit number that the Arizona Department of Education uses to identify Arizona public LEAs",
+      "pattern": "^[a-zA-Z0-9]{1,9}$"
+    },
+    "NCESDID": {
+      "type": "string",
+      "description": "The National Center for Education Statistics (NCES) unique identifier for the LEA",
+      "pattern": "^[0-9]{1,7}$"
+    },
+    "LEAName": {
+      "type": "string",
+      "description": "The name of the LEA",
+      "pattern": "^[a-zA-Z0-9]{1,100}$"
+    },
+    "AltName": {
+      "type": "string",
+      "description": "The alternative name of the LEA",
+      "pattern": "^[a-zA-Z0-9 ]{1,100}$"
+    },
+    "LEAType": {
+      "type": "string",
+      "description": "The type of the LEA",
+      "pattern": "^[a-zA-Z0-9 ]{1,25}$"
+    },
+    "CharterSchool": {
+      "type": "number",
+      "description": "The charter status of the LEA",
+      "pattern": "^[0-9]{1,1}$"
+    },
+    "LEAAddress": {
+      "type": "string",
+      "description": "The address of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,100}$"
+    },
+    "LEACity": {
+      "type": "string",
+      "description": "The city of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,50}$"
+    },
+    "LEAState": {
+      "type": "string",
+      "description": "The state of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,2}$"
+    },
+    "LEAZip": {
+      "type": "number",
+      "description": "The zip code of the school",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "LEAZip4": {
+      "type": "number",
+      "description": "The zip code extension of the school",
+      "pattern": "^[0-9]{1,4}$"
+    },
+    "Phone": {
+      "type": "string",
+      "description": "The phone number of the school",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "Website": {
+      "type": "string",
+      "description": "The website of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,100}$"
+    },
+    "Status": {
+      "type": "number",
+      "description": "The status of the school Open/Closed",
+      "pattern": "^[0-9]{1,1}$"
+    },
+    "lat": {
+      "type": "number",
+      "description": "The latitude of the school",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "lon": {
+      "type": "number",
+      "description": "The longitude of the school",
+      "pattern": "^[0-9]{1,10}$"
+    }
+  }
+}

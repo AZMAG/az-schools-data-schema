@@ -1,0 +1,132 @@
+{
+  "title": "Record of Schools",
+  "description": "This document records the details of an school",
+  "type": "object",
+  "properties": {
+    "CountyEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the county",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "LEAEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the LEA",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "SchoolEntityID": {
+      "type": "number",
+      "description": "The unique identifier for the school",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "LEACTDS": {
+      "type": "string",
+      "description": "Nine (9) digit number that the Arizona Department of Education uses to identify Arizona public LEAs",
+      "pattern": "^[a-zA-Z0-9]{1,9}$"
+    },
+    "SchoolCTDS": {
+      "type": "string",
+      "description": "Nine (9) digit number that the Arizona Department of Education uses to identify Arizona public schools and charter schools",
+      "pattern": "^[a-zA-Z0-9]{1,9}$"
+    },
+    "NCESDID": {
+      "type": "string",
+      "description": "The National Center for Education Statistics (NCES) unique identifier for the LEA",
+      "pattern": "^[0-9]{1,7}$"
+    },
+    "NCESSID": {
+      "type": "string",
+      "description": "The National Center for Education Statistics (NCES) unique identifier for the school",
+      "pattern": "^[0-9]{1,12}$"
+    },
+    "SchoolName": {
+      "type": "string",
+      "description": "The name of the school",
+      "pattern": "^[a-zA-Z0-9]{1,100}$"
+    },
+    "AltName": {
+      "type": "string",
+      "description": "The alternative name of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,100}$"
+    },
+    "Model": {
+      "type": "string",
+      "description": "The model of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,15}$"
+    },
+    "SchoolType": {
+      "type": "string",
+      "description": "The type of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,25}$"
+    },
+    "CharterSchool": {
+      "type": "number",
+      "description": "The charter status of the school",
+      "pattern": "^[0-9]{1,1}$"
+    },
+    "AlternativeSchool": {
+      "type": "number",
+      "description": "The alternative status of the school",
+      "pattern": "^[0-9]{1,1}$"
+    },
+    "GradeLevels": {
+      "type": "string",
+      "description": "The grade levels of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,100}$"
+    },
+    "KinderType": {
+      "type": "string",
+      "description": "The type of kindergarten program",
+      "pattern": "^[a-zA-Z0-9 ]{1,25}$"
+    },
+    "SchoolAddress": {
+      "type": "string",
+      "description": "The address of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,100}$"
+    },
+    "SchoolCity": {
+      "type": "string",
+      "description": "The city of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,50}$"
+    },
+    "SchoolState": {
+      "type": "string",
+      "description": "The state of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,2}$"
+    },
+    "SchoolZip": {
+      "type": "number",
+      "description": "The zip code of the school",
+      "pattern": "^[0-9]{1,5}$"
+    },
+    "SchoolZip4": {
+      "type": "number",
+      "description": "The zip code extension of the school",
+      "pattern": "^[0-9]{1,4}$"
+    },
+    "Phone": {
+      "type": "string",
+      "description": "The phone number of the school",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "Website": {
+      "type": "string",
+      "description": "The website of the school",
+      "pattern": "^[a-zA-Z0-9 ]{1,100}$"
+    },
+    "Status": {
+      "type": "number",
+      "description": "The status of the school Open/Closed",
+      "pattern": "^[0-9]{1,1}$"
+    },
+    "lat": {
+      "type": "number",
+      "description": "The latitude of the school",
+      "pattern": "^[0-9]{1,10}$"
+    },
+    "lon": {
+      "type": "number",
+      "description": "The longitude of the school",
+      "pattern": "^[0-9]{1,10}$"
+    }
+  }
+}
